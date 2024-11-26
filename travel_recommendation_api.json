@@ -1,0 +1,93 @@
+
+
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "Images/Aus.jpg",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "Images/Aus.jpg",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "Images/Japan.jpg",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "Images/Japan.jpg",
+            "description": "Known for its historic gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "Images/brazil.jpg",
+            "description": "A lively city known for its  vibrant carnival celebrations, and iconic landmarks."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl":  "Images/brazil.jpg",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "India",
+        "cities": [
+          {
+            "name": "Amritsar, India",
+            "imageUrl":  "Images/India.jpg",
+            "description": "A Place to Visit"
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "temple",
+         "imageUrl":  "Images/India.jpg",
+        "description": "A Place to Visit"
+      },
+      {
+        "id": 2,
+        "name": "temple",
+         "imageUrl":  "Images/bell.jpg",
+        "description": "A Place to Visit"
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "beach",
+        "imageUrl": "Images/beach.jpg",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "beach",
+        "imageUrl":"Images/sunset.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">TravelBloom</div>
+      <ul class="nav-links">
+        <li><a href="travelRecommendation.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="search-container" style="visibility: hidden">
+        <!-- <input type="text" id="search-input" placeholder="Search for recommendations..." oninput="filterRecommendations()">
+        <button id="search-btn">Search</button>
+        <button id="reset-btn">Reset</button> -->
+      </div>
+    </nav>
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="contact-us">
+      <div class="container">
+        <!-- Contact Info Column -->
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>Have questions or need help? contact us directly at:</p>
+          <p>Email: help@travelbloom.com</p>
+          <p>Phone: No</p>
+          <p>Address: Building No #123, Example Address</p>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div class="contact-form">
+          <h2>Get in Touch</h2>
+          <form id="contactForm" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

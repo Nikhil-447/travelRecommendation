@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Social Icons Section (Vertically on Left) -->
+    <div class="social-icons-vertical">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">TravelBloom</div>
+      <ul class="nav-links">
+        <li><a href="travelRecommendation.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search here.." />
+        <button id="search-btn">Search</button>
+        <button id="reset-btn">Reset</button>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="intro">
+        <h1>Welcome to TravelBloom!</h1>
+        <p>Your one stop guide to the world's most beautiful destinations.</p>
+
+        <div
+          id="recommendationsContainer"
+          class="recommendations"
+          style="display: none"
+        >
+          <!-- Cards will go here dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <div id="results-container" class="results"></div>
+
+    <script src="travelRecommendation.js"></script>
+  </body>
+</html>
