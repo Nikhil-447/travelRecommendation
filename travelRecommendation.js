@@ -120,3 +120,5 @@ document.getElementById("reset-btn").addEventListener("click", resetSearch);
 
 // Fetch travel data when the page loads
 fetchTravelData();
+
+//https://travel-bloom-sigma.vercel.app/contact.html

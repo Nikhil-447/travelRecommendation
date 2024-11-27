@@ -143,7 +143,7 @@ body {
 
 .social-icon {
   font-size: 1.5rem; /* Adjust size */
-  color: #000; /* Default color */
+  color: blue; /* Default color */
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -185,13 +185,19 @@ body {
 }
 
 .team-member {
-  background-color: #fff;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  width: calc(25% - 20px);
+  background-color: #bbd28c;
+  padding: 20px;
+  border: 2px solid #a4a95b;
+  border-radius: 10px;
+  width: calc(20% - 30px);
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px); /* Adds a hover effect for visual engagement */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhances shadow on hover */
 }
 
 .team-member h4 {
@@ -202,7 +208,7 @@ body {
 
 .team-member p {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #777;
 }
 
@@ -238,7 +244,7 @@ body {
 }
 
 .contact-form {
-  background-color: #fff;
+  background-color: wheat;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -290,7 +296,7 @@ body {
   width: 250px;
   margin: 10px;
   text-align: center;
-  background-color: white;
+  background-color: wheat;
   padding: 15px;
   border-radius: 10px; /* Rounded corners for the card */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around cards */
